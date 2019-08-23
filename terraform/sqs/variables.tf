@@ -1,0 +1,14 @@
+variable "cluster_name" {}
+variable "content_based_deduplication" {}
+variable "delay_seconds" {}
+variable "fifo_queue" {}
+variable "k8s_environment" {}
+variable "kms_data_key_reuse_period_seconds" {}
+variable "kms_key_name" {}
+variable "max_message_size" {}
+variable "message_retention_seconds" {}
+variable "queue_id" {}
+variable "receive_wait_time_seconds" {}
+variable "solution_abbreviation" {}
+variable "tenant_id" {}
+variable "visibility_timeout_seconds" {}
