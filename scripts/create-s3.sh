@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TERRAFORM="/var/lib/jenkins/libs/terraform-0.10.6"
+TERRAFORM="/usr/bin/terraform"
 
 
 # Assume role into account
