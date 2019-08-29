@@ -4,7 +4,7 @@ TERRAFORM="/var/lib/jenkins/libs/terraform-0.10.6"
 
 
 # Assume role into account
-source ./aws_creds_env.sh
+#source ./aws_creds_env.sh
 
 mkdir -p planned
 cp templates/s3.tf planned/s3.tf
