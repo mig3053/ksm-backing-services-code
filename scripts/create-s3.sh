@@ -5,7 +5,7 @@ TERRAFORM="/var/lib/jenkins/libs/terraform-0.10.6"
 
 # Assume role into account
 #source ./aws_creds_env.sh
-
+echo "Kawaljit Starting ..."
 mkdir -p planned
 cp templates/s3.tf planned/s3.tf
 cd planned
